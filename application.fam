@@ -1,0 +1,13 @@
+App(
+    appid="mouse_jiggler",
+    name="Mouse Jiggler",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mouse_jiggler_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="1.0",
+    fap_author="",
+    fap_weburl="",
+    fap_description="Emulates a USB HID mouse and jiggles the cursor periodically to keep the host awake.",
+)
